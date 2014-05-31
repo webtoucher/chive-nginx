@@ -13,4 +13,10 @@ Copy config:
 wget -P /etc/nginx/conf.d https://raw.githubusercontent.com/Webtoucher/chive-nginx-config/master/chive.conf
 ```
 
-Fix downloaded config: change hostname and choose your FastCGI listener
+Fix downloaded config: change hostname and choose your FastCGI listener.
+
+Don't forget restart nginx:
+
+```bash
+service nginx restart
+```
