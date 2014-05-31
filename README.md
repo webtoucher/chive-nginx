@@ -15,7 +15,7 @@ wget -P /etc/nginx/conf.d https://raw.githubusercontent.com/Webtoucher/chive-ngi
 
 Fix downloaded config: change hostname and choose your FastCGI listener.
 
-Don't forget restart nginx:
+Don't forget to restart nginx:
 
 ```bash
 service nginx restart
