@@ -1,4 +1,4 @@
-Examle of chive installing on CentOS
+Examle of chive installing for CentOS
 ======================
 
 Create dirs and install chive:
